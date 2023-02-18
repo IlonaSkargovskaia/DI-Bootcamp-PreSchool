@@ -1,0 +1,35 @@
+body {
+    
+    margin: 0 auto;
+}
+div {
+    border: 3px solid black;
+}
+section {
+    margin-bottom: 40px;
+    display: flex;
+}
+.col {
+    height:200px;
+    width:30%;
+    margin-left:2.1%;
+}
+.heading {
+    background: rgb(0, 128, 58);
+    height: 200px;
+    margin-bottom: 30px;
+}
+.col img {
+    width: 100%;
+    height: inherit;
+}
+.col-left {
+    background-color: rgb(255, 128, 0);
+    margin-left: 0;
+}
+.col-mid {
+    background-color: rgb(235, 14, 14);
+}
+.col-right {
+    background-color: rgb(21, 146, 192);
+}
