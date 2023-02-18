@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+  }
+  
+html {
+    font-size: 62.5%; /* 10px = 1rem */
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: #242424;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    color:#000;
+    cursor: pointer;
+
+    -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+a:hover{
+    color: #c91818;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 9rem;
+}
+
+.container{
+    max-width: 120.2rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Header */
+
+.header__bg {
+    background: url(../img/bg.jpg) no-repeat center top;
+    min-height: 100rem;
+    background-size: cover;
+    background-color: #000;
+    padding-bottom: 20.8rem;
+    margin-bottom: 3rem;
+}
+
+@media only screen and (min-width: 1700px) {
+    .header__bg {
+        
+        background-size: contain;
+        background-color: #000;
+        
+    }
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.header__logo a{
+    color: #fff;
+    font-size: 3.6rem;
+}
+
+.header__logo a:hover{
+    color: #c91818;
+}
+
+.menu__top {
+    display: flex;
+    gap: 4rem;
+}
+
+.menu__top li a{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.menu__top li a:hover{
+    color: #c91818;
+}
+
+
+.header__description{
+    display:flex;
+    justify-content: space-between;
+    color:#fff;
+    margin-top: 66.5rem;
+}
+
+.description__top{
+    max-width: 42.2rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    line-height: 5rem;
+}
+
+.decription__bottom{
+    font-size: 3.2rem;
+    max-width: 32.2rem;
+    text-align: right;
+    line-height: 3.5rem;
+    padding-top: 1.8rem;
+    font-weight: 100;
+}
+
+/* biography */
+
+.biography {
+    padding: 10rem 0;
+}
+
+.biography__description {
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+}
+.biography__text p{
+    margin-bottom: 2rem;
+}
+
+.biography__text-date{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 3.5rem;
+    margin-top: 6rem;
+}
+
+.biography__text-date p{
+    margin-bottom: 0;
+}
+.biography__img {
+}
+
+/* apple */
+
+.apple{
+    background: #e8e8e8;
+    padding: 10rem 0;
+}
