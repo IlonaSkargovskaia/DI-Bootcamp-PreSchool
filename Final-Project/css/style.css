@@ -38,7 +38,17 @@ h2{
     font-weight: 700;
     font-size: 4.5rem;
     text-align: center;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #060606;
+    width: fit-content;
+    margin: auto;
     margin-bottom: 9rem;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 5rem;
 }
 
 .container{
@@ -54,7 +64,7 @@ h2{
     min-height: 100rem;
     background-size: cover;
     background-color: #000;
-    padding-bottom: 20.8rem;
+    padding-bottom: 5.8rem;
     margin-bottom: 3rem;
 }
 
@@ -77,10 +87,20 @@ h2{
 .header__logo a{
     color: #fff;
     font-size: 3.6rem;
+    display: flex;
+    align-items: center;
 }
 
 .header__logo a:hover{
     color: #c91818;
+}
+
+.header__logo img{
+    max-width: 4rem;
+}
+
+.header__logo h1{
+    padding-top: 0.7rem;
 }
 
 .menu__top {
@@ -102,7 +122,7 @@ h2{
     display:flex;
     justify-content: space-between;
     color:#fff;
-    margin-top: 66.5rem;
+    margin-top: 70.5rem;
 }
 
 .description__top{
@@ -132,7 +152,11 @@ h2{
     gap: 10rem;
     justify-content: center;
 }
-.biography__text p{
+
+.biography__description-2{
+}
+
+.biography__text p, .biography__description-2 p{
     margin-bottom: 2rem;
 }
 
@@ -141,7 +165,7 @@ h2{
     font-size: 3rem;
     line-height: 3rem;
     margin-bottom: 3.5rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 
 .biography__text-date p{
@@ -153,6 +177,24 @@ h2{
 /* apple */
 
 .apple{
-    background: #e8e8e8;
-    padding: 10rem 0;
+    
+    padding: 10rem 0 14rem 0;
+    background: url(../img/mac.png) no-repeat center 100%;
+    background-color: #f0f0f0;
+    margin-bottom: 10rem;
+}
+
+.apple__list li{
+    padding: 1rem 2rem;
+    background-color: #fff;
+    margin: 2rem auto;
+    list-style-type: disc;
+    max-width: 67%;
+    font-size: 1.7rem;
+}
+
+.apple__list li::marker{
+    font-weight: 700;
+    color: #c91818;
+    font-size: 5rem;
 }
