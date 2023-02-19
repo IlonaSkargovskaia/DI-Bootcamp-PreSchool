@@ -23,15 +23,16 @@ img{
 }
 
 a{
-    color:#000;
+    color:#c91818;
     cursor: pointer;
 
     -webkit-transition: 0.3s;
-  transition: 0.3s;
+    transition: 0.3s;
 }
 
 a:hover{
-    color: #c91818;
+    background-color: #c91818;
+    color:#fff;
 }
 
 h2{
@@ -49,6 +50,10 @@ h3{
     font-weight: 700;
     font-size: 3.5rem;
     margin-bottom: 5rem;
+    background-color: #c91818;
+    color: white;
+    padding: 2rem;
+    max-width: fit-content;
 }
 
 .container{
@@ -93,6 +98,7 @@ h3{
 
 .header__logo a:hover{
     color: #c91818;
+    background-color: transparent;
 }
 
 .header__logo img{
@@ -115,6 +121,7 @@ h3{
 
 .menu__top li a:hover{
     color: #c91818;
+    background-color: transparent;
 }
 
 
@@ -153,7 +160,11 @@ h3{
     justify-content: center;
 }
 
-.biography__description-2{
+.biography__desc{
+    display: flex;
+    justify-content: space-between;
+    gap: 7rem;
+    align-items: center;
 }
 
 .biography__text p, .biography__description-2 p{
@@ -171,7 +182,8 @@ h3{
 .biography__text-date p{
     margin-bottom: 0;
 }
-.biography__img {
+.biography__img-left {
+    min-width: 35%;
 }
 
 /* apple */
@@ -185,16 +197,99 @@ h3{
 }
 
 .apple__list li{
-    padding: 1rem 2rem;
+    padding: 0.4rem 2rem 2rem;
     background-color: #fff;
     margin: 2rem auto;
     list-style-type: disc;
     max-width: 67%;
     font-size: 1.7rem;
+    box-shadow: 0px 2px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 10px;
 }
 
 .apple__list li::marker{
     font-weight: 700;
     color: #c91818;
     font-size: 5rem;
+}
+
+.appleLogo{
+
+    padding-bottom: 10rem;
+    margin-bottom: 5rem;
+}
+
+.appleLogo p{
+    margin: 5rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.appleLogo h3{
+    margin: auto;
+}
+
+/* Awards */
+
+.awards{
+    background: url(../img/bg-awards.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 20rem 0;
+    margin-bottom: 10rem;
+    position: relative;
+}
+
+.awards::before{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color:rgba(0, 0, 0, .5);
+        z-index: 1;
+}
+
+.awards__bg{
+    z-index: 4;
+    position: relative;
+}
+
+.awards__wrap{
+    display: flex;
+    gap: 5rem;
+    color:#fff;
+    align-items: center;
+}
+
+.awards__wrap img{
+    height: fit-content;
+}
+
+.awards__list{
+    
+}
+
+.awards__list li{
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.awards__list li span{
+    background-color: #c91818;
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 1rem;
+    min-width: 15%;
+}
+
+/* Family */
+
+.family__decsription{
+    
 }
