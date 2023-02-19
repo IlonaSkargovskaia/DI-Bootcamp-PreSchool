@@ -324,7 +324,7 @@ h3{
 }
 
 .video__film{
-    margin: 10rem auto;
+    margin: 10rem auto 4rem auto;
     font-size: 3rem;
     background-color: #c91818;
     width: fit-content;
